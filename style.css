@@ -1,0 +1,69 @@
+
+.carousel{
+    background-image: url(images/background/bg-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container{
+    padding-bottom: 30px
+}
+.carousel-indicators li{
+    transition: all .2s ease-in-out;
+    width: 15px;
+    height: 12px;
+    background-color: gray;
+    border: none;
+    border-radius: 15px;
+}
+.carousel-indicators .active{
+    width: 48px;
+    height: 12px;
+    background-image: linear-gradient(90deg, yellow, rgb(243, 142, 10));
+}
+.card{
+    border: none;
+    box-shadow: 15px 15px 20px lightgray;
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
+}
+.card-button{
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(10, 9, 9);
+}
+.card img{
+    width: 80%;
+}
+.gradient-shape{
+    width: 150px;
+    height: 16px;
+    background-image: linear-gradient(90deg, yellow,red);
+    border-radius: 10px;
+}
+.bag-image{
+    margin: 20px;
+    padding: 40px;
+    border-radius: 0px 25px;
+    box-shadow: 15px 15px 15px lightgray;
+}
+.perfume-image{
+    margin: 20px;
+    padding: 40px;
+    border-radius: 0px 25px;
+    box-shadow: 15px 15px 15px lightgray;
+}
+.shoe-image{
+    margin: 20px;
+    padding: 40px;
+    border-radius: 0px 25px;
+    box-shadow: 15px 15px 15px lightgray;
+}
+.pale-order-image{
+    margin-top: 40px;
+}
+.catagory-section{
+    margin: 20px;
+}
